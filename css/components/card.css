@@ -1,0 +1,35 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0.2);
+	border-radius:10px;
+	margin:10px;
+	flex-basis: 280px;
+	justify-content: space-between;
+	flex-basis: 280px;
+	flex-grow: 1;
+}
+.card img{
+	border-radius: 10px;
+	width: 200px;
+}
+.card h3{
+	font-size: 25px;
+	padding-left: 29px;
+	flex-grow: 1;
+}
+.card a{
+	color:black;
+}
+.card btn blue{
+	background:#614e1a;
+	color:white;
+	padding: 8px 12px;
+	border-radius: 4px;
+	text-decoration: none;
+}
